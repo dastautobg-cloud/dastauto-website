@@ -1,0 +1,7 @@
+import React from "react";
+import { Facebook, Instagram, Mail, Phone } from "lucide-react";
+import { contact } from "./siteData";
+
+export default function Footer() {
+  return <footer className="bg-background px-5 py-10 lg:px-10"><div className="mx-auto flex max-w-[1440px] flex-col justify-between gap-8 border-t border-border pt-10 lg:flex-row"><div><div className="font-heading text-2xl font-black uppercase tracking-[-0.05em]">DastAuto</div><p className="mt-3 max-w-md font-mono text-sm leading-7 text-muted-foreground">Премиум автобоядисване, тенекеджийски ремонт и детайлинг услуги.</p></div><div className="grid gap-3 font-mono text-sm text-muted-foreground"><a href="#services">Услуги</a><a href="#gallery">Галерия</a><a href="#contact">Контакти</a></div><div className="grid gap-3 font-mono text-sm text-muted-foreground"><span className="flex gap-2"><Phone className="h-4 w-4 text-primary" /> {contact.phone}</span><span className="flex gap-2"><Mail className="h-4 w-4 text-primary" /> {contact.email}</span><div className="flex gap-3"><a href="https://facebook.com" target="_blank" rel="noreferrer" aria-label="Facebook"><Facebook /></a><a href="https://instagram.com" target="_blank" rel="noreferrer" aria-label="Instagram"><Instagram /></a></div></div></div><div className="mx-auto mt-10 max-w-[1440px] font-mono text-xs text-muted-foreground">© {new Date().getFullYear()} DastAuto. Всички права запазени.</div></footer>;
+}
