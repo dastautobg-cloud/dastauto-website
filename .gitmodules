@@ -1,0 +1,3 @@
+[submodule "DastAuto-Website"]
+  path = DastAuto-Website
+  url = https://github.com/dastautobg-cloud/dastauto-website.git
