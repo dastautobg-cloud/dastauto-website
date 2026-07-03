@@ -4,6 +4,7 @@ import React, { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, Phone, X } from "lucide-react";
 import { contact } from "./siteData";
+import logoWhite from "../../assets/logo_white.png";
 
 const links = [
   { label: "Начало", path: "/" },
@@ -38,7 +39,7 @@ export default function NavBar() {
       <div className="h-0.5 bg-primary transition-all" style={{ width: `${progress}%` }} />
       <nav className="mx-auto flex max-w-[1440px] items-center justify-between px-5 py-4 lg:px-10">
         <Link to="/" className="group flex items-center gap-3">
-          <img src="src/assets/logo_white.png" alt="DastAuto logo" className="h-14 w-auto object-contain" />
+          <img src={logoWhite} alt="DastAuto logo" className="h-14 w-auto object-contain" />
           <span className="font-heading text-sm font-black uppercase tracking-[-0.04em] text-foreground">DastAuto</span>
         </Link>
         <div className="hidden items-center gap-8 lg:flex">

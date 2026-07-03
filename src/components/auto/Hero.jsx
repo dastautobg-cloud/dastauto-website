@@ -2,7 +2,7 @@ const db = globalThis.__B44_DB__ || { auth:{ isAuthenticated: async()=>false, me
 
 import React from "react";
 import { motion } from "framer-motion";
-import { ArrowRight, Phone, ShieldCheck } from "lucide-react";
+import { ArrowRight, Phone } from "lucide-react";
 import { contact } from "./siteData";
 import bannerImage from "../../assets/banner.png";
 import logoWhite from "../../assets/logo_white.png";
