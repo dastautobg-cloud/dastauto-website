@@ -12,7 +12,7 @@ export const contact = {
 
 export const galleryProjects = [
   {
-    title: "Възстановяване на предна броня",
+    title: "Възстановяване на предница",
     category: "Автобоядисване",
     before: "https://media.base44.com/images/public/6a25b894c69d8cc1446d8452/04c3fe127_generated_110ef68c.png",
     after: "https://media.base44.com/images/public/6a25b894c69d8cc1446d8452/afda7a62e_generated_ee12e0fd.png",

@@ -83,7 +83,7 @@ export default function Contact() {
     }
   };
 
-  const mapsUrl =
+  const mapabratle =
     "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2939.7519149485743!2d27.455775199999998!3d42.5393244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40a693bfc524801b%3A0xe0086aa4c809fd00!2z0JDQstGC0L7RgdC10YDQstC40Lcg0JTQkNCh0KLQkNCj0KLQng!5e0!3m2!1sbg!2sbg!4v1781193663901!5m2!1sbg!2sbg";
 
   return (
@@ -139,7 +139,7 @@ export default function Contact() {
 
           <iframe
             title="DastAuto локация"
-            src={mapsUrl}
+            src={mapabratle}
             className="mt-8 h-64 w-full rounded-[2rem] border border-border"
             loading="lazy"
             allowFullScreen

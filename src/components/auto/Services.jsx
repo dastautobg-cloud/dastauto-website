@@ -4,8 +4,8 @@ import React from "react";
 import { Car, Droplets, Hammer, Paintbrush } from "lucide-react";
 
 const groups = [
-  { icon: Paintbrush, title: "Автобояджийски услуги", image: "https://media.base44.com/images/public/6a25b894c69d8cc1446d8452/a6886c7d9_generated_ce210833.png", services: ["Цялостно боядисване", "Частично боядисване", "Боядисване на брони", "Боядисване на калници", "Полиране след боядисване", "Възстановяване след ПТП"] },
-  { icon: Hammer, title: "PDR услуги", image: "https://media.base44.com/images/public/6a25b894c69d8cc1446d8452/1eab7df10_generated_a25e2a50.png", services: ["Премахване на градушки", "Изправяне на вдлъбнатини без боядисване", "Ремонт на щети от паркинг удари", "Възстановяване на елементи от купето"] },
+  { icon: Paintbrush, title: "Автобояджийски услуги", image: "src/assets/bodypaint_services.png", services: ["Цялостно боядисване", "Частично боядисване", "Боядисване на брони", "Боядисване на калници", "Полиране след боядисване", "Възстановяване след ПТП"] },
+  { icon: Hammer, title: "PDR услуги", image: "src/assets/pdr_services.png", services: ["Премахване на градушки", "Изправяне на вдлъбнатини без боядисване", "Ремонт на щети от паркинг удари", "Възстановяване на елементи от купето"] },
   { icon: Droplets, title: "Детайлинг", image: "https://media.base44.com/images/public/6a25b894c69d8cc1446d8452/b0bf4a7c4_generated_9dc06179.png", services: ["Външен детайлинг", "Вътрешен детайлинг", "Машинно полиране", "Корекция на лак", "Керамично покритие", "Нано защита", "Почистване на двигателен отсек", "Пране на салон", "Защита на кожа и пластмаси"] }
 ];
 
