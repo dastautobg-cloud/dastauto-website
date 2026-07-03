@@ -4,11 +4,13 @@ import React from "react";
 import { motion } from "framer-motion";
 import { ArrowRight, Phone, ShieldCheck } from "lucide-react";
 import { contact } from "./siteData";
+import bannerImage from "../../assets/banner.png";
+import logoWhite from "../../assets/logo_white.png";
 
 export default function Hero() {
   return (
     <section id="top" className="relative min-h-screen overflow-hidden pt-20 md:pt-28">
-      <img src="dastauto-website/src/assets/banner.png" alt="Луксозен автомобил в тъмно премиум студио за автобоядисване и детайлинг" className="absolute inset-0 h-full w-full object-cover opacity-55" />
+      <img src={bannerImage} alt="Луксозен автомобил в тъмно премиум студио за автобоядисване и детайлинг" className="absolute inset-0 h-full w-full object-cover opacity-55" />
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_30%,transparent_0,rgba(8,8,8,.35)_30%,hsl(var(--background))_78%)]" />
       <div className="absolute left-0 top-1/3 h-px w-full rotate-[-8deg] bg-gradient-to-r from-transparent via-primary/70 to-transparent" />
       <div className="relative mx-auto grid min-h-[calc(100vh-5rem)] max-w-[1440px] items-center gap-10 px-5 py-12 md:py-20 lg:grid-cols-[1.1fr_.9fr] lg:px-10">
@@ -23,7 +25,7 @@ export default function Hero() {
         </motion.div>
         <motion.div initial={{ opacity: 0, scale: .94 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: .9, delay: .2 }} className="hidden lg:block">
           <div className="ml-auto max-w-md rounded-[2rem] border border-border bg-card/65 p-6 shadow-2xl shadow-black/50 backdrop-blur-xl">
-            <img src="src/assets/logo_white.png" alt="DastAuto" className="mb-5 h-24 w-auto object-contain" />
+            <img src={logoWhite} alt="DastAuto" className="mb-5 h-24 w-auto object-contain" />
             <div className="font-heading text-3xl font-black uppercase tracking-[-0.05em]">DastAuto</div>
             <p className="mt-3 font-mono text-sm leading-7 text-muted-foreground">Сертифициран процес, премиум материали и контрол на качеството при всяко предаване.</p>
           </div>
