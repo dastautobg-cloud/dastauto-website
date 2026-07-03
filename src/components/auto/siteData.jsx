@@ -14,8 +14,8 @@ export const galleryProjects = [
   {
     title: "Възстановяване на предница",
     category: "Автобоядисване",
-    before: "https://media.base44.com/images/public/6a25b894c69d8cc1446d8452/04c3fe127_generated_110ef68c.png",
-    after: "https://media.base44.com/images/public/6a25b894c69d8cc1446d8452/afda7a62e_generated_ee12e0fd.png",
+    before: "https://res.cloudinary.com/dtsjmztev/image/upload/v1783107430/5df17892-31b5-4d28-986e-2358fe3729f0_m7jkgs.png",
+    after: "https://res.cloudinary.com/dtsjmztev/image/upload/v1783107426/855d8d34-971c-4549-ae99-07c2662ac23c_yauoyg.png",
     alt: "Предна броня преди и след професионално боядисване",
     problem: "Дълбоки драскотини, ожулвания и нарушен лак след градски инцидент.",
     work: "Демонтаж, шлайфане, грундиране, компютърно напасване на цвят и фино полиране.",
