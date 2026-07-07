@@ -12,7 +12,7 @@ export const contact = {
 
 export const galleryProjects = [
   {
-    title: "Възстановяване на предница",
+    title: "Възстановяване на предница след ПТП",
     category: "Автобоядисване",
     before: "https://res.cloudinary.com/dtsjmztev/image/upload/v1783107430/5df17892-31b5-4d28-986e-2358fe3729f0_m7jkgs.png",
     after: "https://res.cloudinary.com/dtsjmztev/image/upload/v1783107426/855d8d34-971c-4549-ae99-07c2662ac23c_yauoyg.png",
