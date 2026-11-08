@@ -26,7 +26,7 @@ export const galleryProjects = [
 
   },
   {
-    title: "Корекция на лак и машинно полиране",
+    title: "ЦЯЛОСТНИ ПРЕБОЯДИСВАНЕ G30 NEON GREEN",
     category: "Полиране",
     before: "https://res.cloudinary.com/dtsjmztev/image/upload/v1794097194/image_e6798134_cgphty.jpg",
     after: "https://res.cloudinary.com/dtsjmztev/image/upload/v1794097195/image_ea505c1f_cqdpsx.jpg",
@@ -40,7 +40,7 @@ export const galleryProjects = [
 
   },
   {
-    title: "Ремонт след ПТП на страничен панел",
+    title: "Ремонт след ПТП Porche Cayenne",
     category: "Ремонти след ПТП",
     before: "https://media.base44.com/images/public/6a25b894c69d8cc1446d8452/c1ca6901a_generated_7ecc9067.png",
     after: "https://media.base44.com/images/public/6a25b894c69d8cc1446d8452/131b70cfe_generated_5303f38a.png",
